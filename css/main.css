@@ -157,8 +157,11 @@
 	text-transform: uppercase;
 	color: #fff;
 	font-weight: 600;
-	padding: 15px 40px;
+	padding: 25px 40px;
 	outline: none;
+	position: absolute;
+	z-index: 9999;
+	margin-top: 45px;
 }
 .btn-submit:hover{
 	text-decoration: none;
@@ -346,16 +349,14 @@
 	color: #fff;
 	box-shadow: 0 0 5px #000;
 }
-.our-project-bottom{
 
-}
-.block-video{
-	height: 500px;
-	width: 700px;
-}
 .visual{
 	text-align: center;
 	padding-bottom: 20px;
+}
+.visual iframe{
+	width: 660px;
+	height: 415px;
 }
 .section-done-project{
 	text-align: center;

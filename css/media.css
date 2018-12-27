@@ -52,12 +52,15 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (max-width: 768px){
-
+	.btn-submit{
+		display: block;
+		margin: 0 auto;
+	}
 	.order-consultion{
-		height: 580px;
+		height: 465px;
 	}
 	.order-consultion:before{
-		height: 580px;
+		height: 465px;
 	}
 	.top-section{
 		background-attachment: scroll;
@@ -69,12 +72,12 @@
 	.accent:after{
 		display: none;
 	}
-	
 }
 @media only screen and (max-width: 375px){
 	.get-project-discount{
 		font-size: 12px;
 	}
+	
 	
 }
 @media only screen and (max-width: 1024px){
@@ -138,6 +141,10 @@
 	.top-section:before{
 		padding: 295px 0;
 	}
+	.visual iframe{
+		width: 360px;
+		height: 215px;
+	}
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {	
@@ -153,16 +160,22 @@
 @media screen and (max-width: 768px) and (min-width: 425px){
 	
 }
-@media screen and (max-width: 425px) and (min-width: 320px){
-	
+@media screen and (max-width: 425px) and (min-width: 375px){
+	.order-consultion{
+		height: 550px;
+	}
+	.order-consultion:before{
+		height: 550px;
+	}
 }
 @media screen and (max-width: 375px) and (min-width: 320px) {
 	.get-project-discount{
 		font-size: 18px;
 		padding: 15px 10px;
 	}	
-	.top-section:before{
-		padding: 321px 0;
+	.visual iframe{
+		width: 290px;
+		height: 215px;
 	}
 	.block-video{
 		height: 210px;
@@ -251,16 +264,10 @@
 	}
 	
 	.top-section:before{
-		padding: 305px 0;
+		padding: 287px 0;
 	}
 	.top-section h1{
 		font-size: 34px;
-	}
-	.order-consultion{
-		height: 720px;
-	}
-	.order-consultion:before{
-		height: 720px;
 	}
 	.btn-submit{
 		padding: 15px 25px;
@@ -270,6 +277,12 @@
 	}
 	.landshaft:before{
 		height: 740px;
+	}
+	.order-consultion{
+		height: 585px;
+	}
+	.order-consultion:before{
+		height: 585px;
 	}
 }
 
@@ -291,7 +304,7 @@
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width : 1024px) {
 	
 }
 /* Extra Large Devices, Wide Screens */
