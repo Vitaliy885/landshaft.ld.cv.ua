@@ -21,7 +21,7 @@
 .top-section:before{
 	position: absolute;
 	content: '';
-	padding: 244px 0;
+	padding: 275px 0;
 	background-color: #000;
 	top: 0;
 	left: 0;
@@ -74,7 +74,7 @@
 }
 /*our-benefits*/
 .our-benefits{
-	padding: 100px 20px 70px 20px;
+	padding: 65px 20px 70px 20px;
 	text-align: center;
 }
 .our-benefits .fa{
@@ -183,7 +183,7 @@
 	background-color: #3d9649;
 }
 .landshaft-project{
-	padding: 70px 20px 70px 20px;
+	padding: 10px 20px 10px 20px;
 	text-align: center
 }
 .landshaft{
@@ -218,7 +218,7 @@
 	text-align: center
 }
 .order-project-form{
-	margin-top: 70px;
+	margin-top: 90px;
 	text-align: center;
 }
 .section-order-project{
@@ -352,7 +352,7 @@
 
 .visual{
 	text-align: center;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 }
 .visual iframe{
 	width: 660px;
@@ -360,7 +360,6 @@
 }
 .section-done-project{
 	text-align: center;
-	padding-bottom: 80px;
 }
 .section-done-project .blok{
 	overflow: hidden;
@@ -380,4 +379,8 @@
 	padding: 2px;
 	color: #fff;
 	box-shadow: 0 0 5px #000;
+}
+.section-footer iframe{
+	width: 100%;
+	height: 200px;
 }

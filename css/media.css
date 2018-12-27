@@ -72,6 +72,9 @@
 	.accent:after{
 		display: none;
 	}
+	.section-footer iframe{
+		padding-bottom: 20px;
+	}
 }
 @media only screen and (max-width: 375px){
 	.get-project-discount{
@@ -85,7 +88,7 @@
 		display: none;
 	}
 	.our-benefits {
-		padding: 100px 20px 35px 20px;
+		padding: 70px 20px 35px 20px;
 	}
 	
 	.order-consultion{
@@ -99,6 +102,15 @@
 
 }
 @media only screen and (max-width: 425px){
+	.top-section h1{
+		font-size: 34px;
+	}
+	.top-section h2{
+		font-size: 22px;
+	}
+	.top-section .discount{
+		font-size: 22px;
+	}
 	.our-benefits {
 		padding: 100px 20px 10px 20px;
 	}
@@ -139,7 +151,7 @@
 		height: 510px;
 	}
 	.top-section:before{
-		padding: 295px 0;
+		padding: 318px 0;
 	}
 	.visual iframe{
 		width: 360px;
@@ -162,10 +174,10 @@
 }
 @media screen and (max-width: 425px) and (min-width: 375px){
 	.order-consultion{
-		height: 550px;
+		height: 610px;
 	}
 	.order-consultion:before{
-		height: 550px;
+		height: 610px;
 	}
 }
 @media screen and (max-width: 375px) and (min-width: 320px) {
@@ -264,7 +276,7 @@
 	}
 	
 	.top-section:before{
-		padding: 287px 0;
+		padding: 344px 0;
 	}
 	.top-section h1{
 		font-size: 34px;
@@ -279,11 +291,12 @@
 		height: 740px;
 	}
 	.order-consultion{
-		height: 585px;
+		height: 610px;
 	}
 	.order-consultion:before{
-		height: 585px;
+		height: 610px;
 	}
+
 }
 
 /* Extra Small Devices, Phones */
