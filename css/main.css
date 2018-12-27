@@ -1,0 +1,359 @@
+
+.top-logo{
+	height: 110px;
+	position: absolute;
+	z-index: 9999;
+	top: 5%;
+	left: 12%;
+	transform: translate(-50%);
+}
+
+.top-section{
+	background-image: url(../img/architectural.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 120px 20px;
+	position: relative;
+}
+.top-section:before{
+	position: absolute;
+	content: '';
+	padding: 244px 0;
+	background-color: #000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	opacity: 0.5;
+}
+.top-section h1{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	font-size: 38px;
+	position: relative;
+	z-index: 2;
+	text-shadow: 2px 2px #000;
+}
+.top-section h2{
+	color: #fff;
+	position: relative;
+	z-index: 2;
+	font-size: 28px;
+	text-shadow: 2px 2px #000;
+}
+.discount{
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	position: relative;
+	z-index: 9999;
+	font-size: 26px;
+	text-shadow: 2px 2px #000;
+}
+.order-project-discount{
+	background-color: red;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	position: relative;
+	z-index: 9999;
+	box-shadow: 0 0 5px #000;
+	padding: 15px 25px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+.order-project-discount:hover{
+	text-decoration: none;
+	color: #fff;
+	background-color: #ce4242;
+}
+/*our-benefits*/
+.our-benefits{
+	padding: 100px 20px 70px 20px;
+	text-align: center;
+}
+.our-benefits .fa{
+	color: #44A651;
+}
+.our-benefits p{
+	font-size: 16px;
+}
+.why-we{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 28px;
+	padding-bottom: 40px;
+}
+.why-we:after{
+	content:'';
+	background-color: #44A651;
+	width: 80px;
+	height: 5px;
+	z-index: 9999;
+	position: absolute;
+	transform: rotate(90deg);
+
+}
+/*order-consultion*/
+.order-consultion{
+	padding: 130px 20px;
+	background-image: url(../img/saa.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+	height: 400px;
+}
+.order-consultion:before{
+	position: absolute;
+	content: '';
+	background-color: #000;
+	height: 400px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	opacity: 0.6;
+}
+.order-consultion h1{
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #000;
+}
+.order-consultion p{
+	font-size: 18px;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+}
+.order-consultion hr{
+	color: #fff;
+}
+.order-consultion input{
+	display: block;
+	margin: 20px auto;
+	position: relative;
+	z-index: 9999;
+}
+.text{
+	background-color: transparent;
+	border: 2px solid #fff;
+	outline: none;
+	color: #fff;
+	padding: 10px 15px;
+	width: 70%;
+	font-size: 16px;
+}
+.text::placeholder{
+	color: #fff;
+}
+.btn-submit{
+	background-color: #44A651;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	padding: 15px 40px;
+	outline: none;
+}
+.btn-submit:hover{
+	text-decoration: none;
+	color: #fff;
+	background-color: #3d9649;
+}
+.get-project-discount{
+	background-color: #44A651;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	padding: 15px 40px;
+	outline: none;
+}
+.get-project-discount:hover{
+	text-decoration: none;
+	color: #fff;
+	background-color: #3d9649;
+}
+.landshaft-project{
+	padding: 70px 20px 70px 20px;
+	text-align: center
+}
+.landshaft{
+	background-image: url(../img/aasas.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+	height: 430px;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+	padding: 40px 20px;
+}
+.landshaft:before{
+	position: absolute;
+	content: '';
+	background-color: #000;
+	height: 430px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	opacity: 0.6;
+}
+.landshaft ul li{
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 5px;
+}
+.our-projects{
+	padding: 70px 20px 10px 20px;
+	text-align: center
+}
+.order-project-form{
+	margin-top: 70px;
+	text-align: center;
+}
+.section-order-project{
+	background-color: #44A651;
+	padding: 50px 20px;
+}
+
+.section-order-project .text-order{
+	display: block;
+	margin: 20px auto;
+	background-color: transparent;
+	border: 2px solid #fff;
+	outline: none;
+	color: #fff;
+	padding: 10px 15px;
+	width: 50%;
+	font-size: 16px;
+}
+.section-order-project .text-order::placeholder{
+	color: #fff;
+}
+.btn-order-project{
+	background-color: transparent;
+	display: block;
+	margin: 20px auto;
+	border: 2px solid #fff;
+	outline: none;
+	color: #fff;
+	padding: 10px 15px;
+	width: 50%;
+	font-size: 16px;
+	transition: all ease-in-out 0.2s;
+}
+.btn-order-project:hover{
+	text-decoration: none;
+	color: #44A651;
+	background-color: #fff;
+	border-color: #fff;
+}
+.section-footer{
+	text-align: center;
+	padding: 40px 20px;
+}
+.footer-logo{
+	height: 100px;
+	margin: 0 auto;
+}
+.section-footer p{
+	font-weight: 600;
+}
+.timer-count{
+	text-align: center;
+	padding: 30px 0;
+	margin-top: 20px;
+}
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #44A651;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #3c9648;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+#deadline-messadge{
+	display: none;
+	font-size: 24px;
+	font-style: italic;
+}
+#deadline-messadge.visible{
+	display: block;
+}
+#clockdiv.hidden{
+	display: none;
+}
+.accent{
+	text-transform: uppercase;
+}
+.accent:after{
+	content:'';
+	background-color: #44A651;
+	width: 80px;
+	height: 5px;
+	z-index: 9999;
+	position: absolute;
+	transform: rotate(90deg);
+
+}
+.section-out-cases{
+	text-align: center;
+
+}
+.section-out-cases .blok{
+	overflow: hidden;
+}
+.section-out-cases img{
+	margin-top: 25px;
+	box-shadow: 0 0 5px #000;
+}
+.section-out-cases img:hover{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+}
+.sub-text-case{
+	background-color: #44A651;
+	margin: 0;
+	padding: 2px;
+	color: #fff;
+	box-shadow: 0 0 5px #000;
+}
+.our-project-bottom{
+
+}
+.block-video{
+	height: 500px;
+	width: 700px;
+}
+.visual{
+	text-align: center;
+	padding-bottom: 20px;
+}

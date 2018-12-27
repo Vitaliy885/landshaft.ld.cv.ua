@@ -1,0 +1,300 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width : 991px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+}
+
+
+
+/*Disable Animation on Mobile Devices*/
+.animated {
+	/*CSS transitions*/
+	-o-transition-property: none !important;
+	-moz-transition-property: none !important;
+	-ms-transition-property: none !important;
+	-webkit-transition-property: none !important;
+	transition-property: none !important;
+	/*CSS transforms*/
+	-o-transform: none !important;
+	-moz-transform: none !important;
+	-ms-transform: none !important;
+	-webkit-transform: none !important;
+	transform: none !important;
+	/*CSS animations*/
+	-webkit-animation: none !important;
+	-moz-animation: none !important;
+	-o-animation: none !important;
+	-ms-animation: none !important;
+	animation: none !important;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 358px) {
+	
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 768px){
+
+	.order-consultion{
+		height: 580px;
+	}
+	.order-consultion:before{
+		height: 580px;
+	}
+	.top-section{
+		background-attachment: scroll;
+	}
+	.top-logo{
+		top: 2%;
+		left: 50%;
+	}
+	.accent:after{
+		display: none;
+	}
+}
+@media only screen and (max-width: 375px){
+	.get-project-discount{
+		font-size: 12px;
+	}
+	
+}
+@media only screen and (max-width: 1024px){
+	.why-we:after{
+		display: none;
+	}
+	.our-benefits {
+		padding: 100px 20px 35px 20px;
+	}
+	
+	.order-consultion{
+		padding: 100px 20px;
+	}
+}
+@media only screen and (max-width: 685px){
+
+}
+@media only screen and (max-width: 425px){
+	.our-benefits {
+		padding: 100px 20px 10px 20px;
+	}
+	.block-video{
+		height: 250px;
+		width: 350px;
+	}
+	.top-logo{
+		height: 90px;
+	}
+	.order-project-discount{
+		padding: 15px 15px;
+	}
+	.section-order-project .text-order{
+		width: 70%;
+	}
+	.btn-order-project{
+		width: 70%;
+	}
+	.top-section{
+		padding: 130px 20px 159px 20px;
+	}
+	
+	.order-consultion{
+		height: 700px;
+	}
+	.order-consultion:before{
+		height: 700px;
+	}
+	.get-project-discount{
+		font-size: 24px;
+		padding: 10px 25px;
+	}
+	.landshaft{
+		height: 510px;
+	}
+	.landshaft:before{
+		height: 510px;
+	}
+	.top-section:before{
+		padding: 295px 0;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {	
+
+}
+
+@media screen and (max-width: 425px) and (min-width: 425px) {
+	
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px){
+	
+}
+@media screen and (max-width: 425px) and (min-width: 320px){
+	
+}
+@media screen and (max-width: 375px) and (min-width: 320px) {
+	.get-project-discount{
+		font-size: 18px;
+		padding: 15px 10px;
+	}	
+	.top-section:before{
+		padding: 321px 0;
+	}
+	.block-video{
+		height: 210px;
+		width: 310px;
+	}
+}
+@media screen and (max-width: 366px) and (min-width: 320px){
+	
+	
+}
+@media screen and (max-width: 417px) and (min-width: 383px) {
+	.landshaft{
+		height: 580px;
+	}
+	.landshaft:before{
+		height: 580px;
+	}
+}
+@media screen and (max-width: 383px) and (min-width: 352px) {
+	.landshaft{
+		height: 610px;
+	}
+	.landshaft:before{
+		height: 610px;
+	}
+}
+@media screen and (max-width: 351px) and (min-width: 343px) {
+	.landshaft{
+		height: 680px;
+	}
+	.landshaft:before{
+		height: 680px;
+	}
+}
+@media screen and (max-width: 342px) and (min-width: 329px) {
+	.landshaft{
+		height: 705px;
+	}
+	.landshaft:before{
+		height: 705px;
+	}
+}
+@media screen and (max-width: 328px) and (min-width: 321px) {
+	.landshaft{
+		height: 730px;
+	}
+	.landshaft:before{
+		height: 730px;
+	}
+}
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+	.landshaft{
+		height: 500px;
+	}
+	.landshaft:before{
+		height: 500px;
+	}
+}
+@media screen and (max-width: 495px) and (min-width: 427px) {
+	.top-section:before{
+		padding: 356px 0;
+	}
+}
+@media screen and (max-width: 426px) and (min-width: 426px) {
+	.top-section:before{
+		padding: 376px 0;
+	}
+
+}
+@media screen and (max-width: 520px) and (min-width: 496px) {
+	.top-section:before{
+		padding: 337px 0;
+	}
+}
+@media screen and (max-width: 563px) and (min-width: 521px) {
+	.top-section:before{
+		padding: 310px 0;
+	}
+}
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.our-benefits {
+		padding: 100px 20px 5px 20px;
+	}
+	
+	.top-section:before{
+		padding: 305px 0;
+	}
+	.top-section h1{
+		font-size: 34px;
+	}
+	.order-consultion{
+		height: 720px;
+	}
+	.order-consultion:before{
+		height: 720px;
+	}
+	.btn-submit{
+		padding: 15px 25px;
+	}
+	.landshaft{
+		height: 740px;
+	}
+	.landshaft:before{
+		height: 740px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.section-out-cases img{
+		height: 200px;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}
+/* Extra Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+/* Extra Extra Large Devices, Wide Screens */
+@media only screen and (min-width : 2560px) {
+
+}
+
+

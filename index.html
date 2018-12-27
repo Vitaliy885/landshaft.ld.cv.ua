@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Ландшафтний дизайн</title>
+	<meta name="description" content="">
+	<link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.css">
+	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="js/lightbox-20160926T131517Z/lightbox/css/lightbox.min.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link href="https://fonts.googleapis.com/css?family=Sintony" rel="stylesheet">
+
+	<!--snow-->
+	<script type="text/javascript"> 
+		imageDir = "http://mvcreative.ru/example/6/2/snow/"; 
+		sflakesMax = 65; 
+		sflakesMaxActive = 65; 
+		svMaxX = 2; 
+		svMaxY = 6; 
+		ssnowStick = 1; 
+		ssnowCollect = 0; 
+		sfollowMouse = 1; 
+		sflakeBottom = 0; 
+		susePNG = 1; 
+		sflakeTypes = 5; 
+		sflakeWidth = 15; 
+		sflakeHeight = 15; 
+	</script> 
+	<script type="text/javascript" src="http://mvcreative.ru/example/6/2/snow.js"></script>
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="libs/dist/css/swiper.min.css">
+	<!-- Demo styles -->
+	<style>
+		.swiper-container {
+			width: 100%;
+			height: 300px;
+			padding: 50px;
+		}
+		.swiper-slide {
+			background-position: center;
+			background-size: cover;
+			width: 100%;
+			height: 300px;
+		}
+		#owl-demo .item{
+			display: block;
+			cursor: pointer;
+			background: #ffd800;
+			padding: 30px 0px;
+			margin: 5px;
+			color: #FFF;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			text-align: center;
+			-webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+		}
+		#owl-demo .item:hover{
+			background: #F2CD00;
+		}
+	</style>
+</head>
+<body >
+	<div class="top-section">
+		<a href="index.html">
+			<img src="img/logo-shapka.png" class="img-responsive top-logo" alt=""></a>
+			<div class="container">
+				<div class="row">
+					<h1>ландшафтний дизайн</h1>
+					<h2>"під ключ"</h2>
+					<p class="discount">Новорічні <span style="color: #44A651";> знижки </span><span style="font-size: 36px;color: red;"> - 40%</span></p>
+					<a href="#main-form" class="order-project-discount">Дізнатися як отримати - 40%</a>
+				</div>
+			</div>
+		</div>
+
+		<section class="timer-count" id="discount">
+			<div class="container">
+				<div class="row">
+
+					<h1 class="accent" style="padding-top: 10px">До завершення знижки залишилося:</h1>
+					<div id="deadline-messadge">
+						Time is up!
+					</div>
+					<div id="clockdiv">
+						<div>
+							<span class="days"></span>
+							<div class="smalltext">Днів</div>
+						</div>
+						<div>
+							<span class="hours"></span>
+							<div class="smalltext">Годин</div>
+						</div>
+						<div>
+							<span class="minutes"></span>
+							<div class="smalltext">Хвилин</div>
+						</div>
+						<div class="offset-seconds" style="display: none;">
+							<span class="seconds"></span>
+							<div class="smalltext">Секунд</div>
+						</div>
+
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+
+		<div class="order-project-form">
+			<h1 class="why-we">Наші кейси</h1>
+		</div>
+		<div class="section-out-cases">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 blok">
+						<a href="img/out-cases/Немирівська 13 Степанова.jpg" data-lightbox="image-1" data-title="Немирівська 13">
+							<img src="img/out-cases/Немирівська 13 Степанова.jpg" alt="" class="img-responsive">
+						</a>
+						<div class="sub-text-case">
+							<p>Немирівська 13</p>
+						</div>
+					</div>
+					<div class="col-md-3 blok">
+						<a href="img/out-cases/Буковинська зірка Бояни Семенюк.jpg" data-lightbox="image-1" data-title="Буковинська зірка Бояни">
+							<img src="img/out-cases/Буковинська зірка Бояни Семенюк.jpg" alt="" class="img-responsive">
+						</a>
+						<div class="sub-text-case">
+							<p>Буковинська зірка Бояни</p>
+						</div>
+					</div>
+					<div class="col-md-3 blok">
+						<a href="img/out-cases/Заліщицький 1 Адам.jpg" data-lightbox="image-1" data-title="Заліщицький 1">
+							<img src="img/out-cases/Заліщицький 1 Адам.jpg" alt="" class="img-responsive">
+						</a>
+						<div class="sub-text-case">
+							<p>Заліщицький 1</p>
+						</div>
+					</div>
+					<div class="col-md-3 blok">
+						<a href="img/out-cases/Кобринської 18 Лукьяненко.jpg" data-lightbox="image-1" data-title="Кобринської 18">
+							<img src="img/out-cases/Кобринської 18 Лукьяненко.jpg" alt="" class="img-responsive">
+						</a>
+						<div class="sub-text-case">
+							<p>Кобринської 18</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 blok">
+						<a href="img/out-cases/Новоселиця зелепуга.jpg" data-lightbox="image-1" data-title="Новоселиця">
+							<img src="img/out-cases/Новоселиця зелепуга.jpg" alt="" class="img-responsive">
+						</a>
+						<div class="sub-text-case">
+							<p>Новоселиця</p>
+						</div>
+					</div>
+					<div class="col-md-3 blok">
+						<a href="img/out-cases/Опришени Клобушняк.jpg" data-lightbox="image-1" data-title="Опришени">
+							<img src="img/out-cases/Опришени Клобушняк.jpg" alt="" class="img-responsive">
+						</a>
+						<div class="sub-text-case">
+							<p>Опришени</p>
+						</div>
+					</div>
+					<div class="col-md-3 blok">
+						<a href="img/out-cases/ОСББ Рівненська 12а Мафтуляк.jpg" data-lightbox="image-1" data-title="ОСББ Рівненська 12а">
+							<img src="img/out-cases/ОСББ Рівненська 12а Мафтуляк.jpg" alt="" class="img-responsive">
+						</a>
+						<div class="sub-text-case">
+							<p>ОСББ Рівненська 12а</p>
+						</div>
+					</div>
+					<div class="col-md-3 blok">
+						<a href="img/out-cases/Січова 19 Томнюк.jpg" data-lightbox="image-1" data-title="Січова 19">
+							<img src="img/out-cases/Січова 19 Томнюк.jpg" alt="" class="img-responsive">
+						</a>
+						<div class="sub-text-case">
+							<p>Січова 19</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="our-benefits">
+			<h1 class="why-we">чому варто замовити ландшафтне проектування у нас?</h1>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-3">
+						<i class="fa fa-users fa-3x" aria-hidden="true"></i>
+						<h2>Штат кваліфікованих фахівців</h2>
+						<p>Над проектом працюють 5 дизайнерів і 2 архітектори</p>
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<i class="fa fa-book fa-3x" aria-hidden="true"></i>
+						<h2>13 років на ринку ЛД</h2>
+						<p>Реалізовано понад 845 успішних проектів</p>
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<i class="fa fa-object-group fa-3x" aria-hidden="true"></i>
+						<h2>Детально розробляються</h2>
+						<p>Генеральний план; Дендроплан; План доріжок; Схема системи поливу; Схема квітників; План освітлення</p>			
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<i class="fa fa-eye fa-3x" aria-hidden="true"></i>
+						<h2>3D візуалізація</h2>
+						<p>Ви погуляєте по своєму двору і побачите всі деталі</p>
+					</div>					
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-3">
+						<i class="fa fa-calendar fa-3x" aria-hidden="true"></i>
+						<h2>Терміни від 14 днів</h2>
+						<p>Ви можете отримати мінімум 2 варіанти візуалізації</p>
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<i class="fa fa-thumbs-o-up fa-3x" aria-hidden="true"></i>
+						<h2>Втілення проекту</h2>
+						<p>Вам не потрібно шукати спеціалістів</p>
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<i class="fa fa-money fa-3x" aria-hidden="true"></i>
+						<h2>Чому з нами дешевше</h2>
+						<p>Ми закуповуємо як гуртові клієнти, нашу знижку отримаєте ви</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="order-project-form" style="margin-top: 0">
+			<h1 class="why-we" style="padding-bottom: 5px;">3D візуалізація</h1>
+		</div>
+		<div class="visual">
+			<video  muted  loop autoplay preload  poster="img/Untitled.png" class="block-video">
+				<source src="oprushenu.mp4" type="video/mp4">
+				</video>
+			</div>
+
+			<div class="order-consultion">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6" style="text-align: left; position: relative; z-index: 9999">
+							<h1>Маєте сумніви,  замовте  консультацію спеціаліста</h1>
+							<hr>
+							<p>Ви отримаєте безкоштовну консультацію + розрахунок вартості</p>
+						</div>
+						<div class="col-md-6">
+							<form action="#">
+								<input type="text" class="text" required placeholder="Ваше ім'я">
+								<input type="number" class="text"  required placeholder="Ваш телефон">
+								<input type="submit" value="Отримати консультацію" class="btn-submit">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="order-project-form">
+				<h1 class="why-we" style="padding-bottom: 15px;">наші проекти</h1>
+			</div>
+			<!-- Swiper -->
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" style="background-image:url(img/screenshots/screen1.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/screenshots/screen2.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/screenshots/screen11.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/screenshots/screen4.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/screenshots/screen5.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/screenshots/screen6.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/screenshots/screen7.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/screenshots/screen8.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/screenshots/screen9.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/screenshots/screen10.jpg)"></div>
+				</div>
+			</div>
+
+
+			<div class="landshaft-project">
+				<h1 class="why-we" style="padding-top: 50px; padding-bottom: 5px;">ландшафтне проектування</h1>
+				<h1>- 40% до нового року</h1>
+				<a href="#main-form" class="get-project-discount">Замовити зі знижкою</a>
+			</div>
+
+
+
+
+			<div class="landshaft">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6"></div>
+						<div class="col-md-6" style="text-align: left; position: relative; z-index: 9999">
+							<h1>У процесі ландшафтного проектування складаємо наступні документи:</h1>
+							<ul>
+								<li>Генеральний план</li>
+								<li>Дендроплан</li>
+								<li>План Доріжок</li>
+								<li>Схема системи поливу</li>
+								<li>Схема квітників</li>
+								<li>План освітлення</li>
+								<li>Безліч 3D зображень майбутньої ділянки</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="order-project-form">
+				<h1 class="why-we">Для замовлення проектування зі знижкою заповніть форму</h1>
+			</div>
+			<div class="section-order-project" id="main-form">
+				<form action="#" >
+					<input type="text" name="name" required class="text-order" placeholder="Ваше ім'я">
+					<input type="number" name="phone" required class="text-order" placeholder="Ваш телефон">
+					<input type="submit" name="submit" class="btn-order-project" value="Замовити">
+				</form>
+			</div>
+			<footer class="section-footer">
+				<div class="container">
+					<div class="row">
+						<img src="img/logo-shapka.png" class="img-responsive footer-logo"  alt="Ландшафтна компанія">
+						<p>Телефонуйте до нас прямо зараз	по телефону: +38 (050) 800 07 88
+						</p>
+						<p>Пишіть нам:
+
+							ldoffice@mail.ru</p>
+							<p>м. Чернівці, вул. Аксеніна, 2</p>
+							<p>Ландшафтна компанія "Садові рішення</p>
+						</div>
+					</div>
+				</footer>
+
+
+
+				<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+				<script src="js/common.js"></script>
+				<script src="js/function.js"></script>
+				<script src="libs/dist/js/swiper.min.js"></script>
+				<!-- Initialize Swiper -->
+				<script>
+					var swiper = new Swiper('.swiper-container', {
+						effect: 'flip',
+						grabCursor: true,
+						autoplay: true,
+						pagination: {
+							el: '.swiper-pagination',
+						},
+						navigation: {
+							nextEl: '.swiper-button-next',
+							prevEl: '.swiper-button-prev',
+						},
+					});
+				</script>
+				<!--timer-->
+				<script type="text/javascript">
+					function getTimeRemaining(endtime) {
+						var t = Date.parse(endtime) - Date.parse(new Date());
+						var seconds = Math.floor((t / 1000) % 60);
+						var minutes = Math.floor((t / 1000 / 60) % 60);
+						var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+						var days = Math.floor(t / (1000 * 60 * 60 * 24));
+						return {
+							total: t,
+							days: days,
+							hours: hours,
+							minutes: minutes,
+							seconds: seconds
+						};
+					}
+
+					function initializeClock(id, endtime) {
+						var clock = document.getElementById(id);
+						var daysSpan = clock.querySelector(".days");
+						var hoursSpan = clock.querySelector(".hours");
+						var minutesSpan = clock.querySelector(".minutes");
+						var secondsSpan = clock.querySelector(".seconds");
+
+						function updateClock() {
+							var t = getTimeRemaining(endtime);
+
+							if (t.total <= 0) {
+								clearInterval(timeinterval);
+								var deadline = new Date(Date.parse(new Date()) + 5 * 1000);
+								initializeClock('clockdiv', deadline);
+							}
+
+							daysSpan.innerHTML = t.days;
+							hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
+							minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
+							secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
+						}
+
+						updateClock();
+						var timeinterval = setInterval(updateClock, 1000);
+					}
+
+					var deadline = new Date(Date.parse(new Date()) + 4 * 24 * 60 * 60 * 1000);
+					initializeClock("clockdiv", deadline);
+				</script>
+				<script src="libs/pagescrolltoidmaster/jquery.malihu.PageScroll2id.js"></script>
+				<script src="js/lightbox-20160926T131517Z/lightbox/js/lightbox-plus-jquery.min.js"></script>
+			</body>
+			</html>
